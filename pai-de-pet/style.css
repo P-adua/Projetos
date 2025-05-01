@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+body {
+    background-image: url(./img/images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: var(--RoyalBlue);
+    margin: 100px auto;
+    border-radius: 7px;
+    width: 360px;
+    text-align: center;
+    box-shadow: 7px 5px 10px rgba(255, 255, 255, 0.75);
+    color: var(--Gainsboro);
+    user-select: none;
+    border: 2px solid #b3b8cd;
+}
+
+.bg-capa {
+    background: url(./img/download.jpeg);
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.foto-perfil {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 200px;
+    border: 3px solid var(--RoyalBlue);
+    padding: 7px;
+    background-color: var(--White);
+}
+
+.perfil-nome {
+    font-size: 38px;
+    color: var(--DarkSlateBlue);
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px 0 0 -138px;
+}
+
+.sobre {
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+button {
+    margin: 10px 0 40px 0;
+}
+
+.msg-btn,
+.seguir-btn {
+    background-color: var(--DarkSlateGrey);
+    border: 1px solid var(--DarkSlateGrey);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.seguir-btn {
+    margin-left: 10px;
+    background-color: transparent;
+    font-weight: bold;
+    color: var(--DarkSlateGrey);
+}
+
+.seguir-btn:hover {
+    color: var(--White);
+    background-color: var(--DarkSlateGrey);
+    transform: 0.8s;
+}
+
+.container i {
+    padding-left: 15px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: var(--White);
+}
+
+.container i:hover {
+    color: var(--DarkSlateBlue);
+}
