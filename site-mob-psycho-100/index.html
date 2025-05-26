@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="responsivo.css">
+  <title>Consultas de Espíritos e Afins</title>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🌟 Consultas de Espíritos e Afins 🌟</h1>
+  </header>
+
+  <main>
+    <h2>O <span class="highlight">MELHOR</span> paranormal do século 21</h2>
+    
+    <div class="name-block">
+      <span class="letter-r">R</span>
+      <span class="letter-e">E</span>
+      <span class="letter-i">I</span>
+      <span class="letter-g">G</span>
+    </div>
+
+    <p class="info">Learn more about our services on our website!</p>
+
+    <div class="enter-section">
+      <button class="arrow">➡</button>
+      <button class="enter">ENTER</button>
+      <button class="arrow">⬅</button>
+    </div>
+
+    <footer class="rodape">
+      <p class="visitante">You are visitor number</p>
+      <div class="contador" id="contador"></div>
+<p>to our site</p>
+
+<script>
+  // Gera um número aleatório entre 1 milhão e 999 milhões
+  const numeroAleatorio = Math.floor(Math.random() * (999_999_999 - 1_000_000 + 1)) + 1_000_000;
+
+  // Formata com zeros à esquerda (tipo contador mesmo)
+  const numeroFormatado = numeroAleatorio.toString().padStart(15, '0');
+
+  // Insere na div com id="contador"
+  document.getElementById('contador').textContent = numeroFormatado;
+</script>
+    </footer>
+  </main>
+</body>
+</html>
